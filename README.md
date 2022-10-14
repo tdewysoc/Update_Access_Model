@@ -36,7 +36,7 @@ Log in as your institution in the developer's network and create an API key with
 
 ELECTRONIC
 
-READ/WRITE (Production)
+READ/WRITE (Production) *select sandbox if testing in sandbox
 
 Keep copy of key in secure location, and add to script only when running it.
 
@@ -44,11 +44,11 @@ Keep copy of key in secure location, and add to script only when running it.
 
 Set access model code in script which will update all portfolios in CSV file to that value.
 
-Set the path of the CSV file in the script, or place it where the script is expecting in C:\Change-Access-Model. Be sure that .csv is not in the title of the file, just that it is a csv type file
+Set the path of the CSV file in the script, or place it where the script is expecting in C:\Change_Access_Model. Be sure that .csv is not in the title of the file, just that it is a csv type file
 
 Format of CSV should be as follows (the script skips the header). 
 
-Collection Id,Service Id,Portfolio Id
-61176767260005201,62176767250005201,53195012660005201
-61176767260005201,62176767250005201,53195123680005201
+Collection Id,Service Id,Portfolio Id<br />
+61176767260005201,62176767250005201,53195012660005201<br />
+61176767260005201,62176767250005201,53195123680005201<br />
 61176767260005201,62176767250005201,53195123680005201
