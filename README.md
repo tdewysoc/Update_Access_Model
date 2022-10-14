@@ -16,7 +16,7 @@ Install Visual Studio Code
 
 Download script files from Github (Code > Download ZIP)
 
-Place extracted folder in C: drive (or edit path in script to wherever you want to put the folder).
+Place extracted folder in C: drive (or edit path in script to wherever you want to put the folder; be sure it is called Update_Access_Model).
 
 In Visual Studio, select File > Open Folder > Select the folder.
 
