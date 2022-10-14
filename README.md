@@ -8,7 +8,7 @@ This script iterates through a CSV file of portfolios and sets all of them to th
 
 Using the values in the CSV file, the script calls the Retrieve Portfolio API. Then the script searches for the access model field in the retrieved XML and sets the access model.
 
-Lastly, the script calls the Update Electronic Portfolio API to update the portfolio in Alma. 
+Lastly, the script calls the Update Electronic Portfolio API to update the portfolio in Alma (access model may not immediately appear in Alma). 
 
 # Installation With Visual Studio Code
 
