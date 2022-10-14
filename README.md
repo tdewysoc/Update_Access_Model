@@ -26,7 +26,9 @@ Customize installaion > make sure everything is checked > select install python 
 
 Open update_access_model.py in Visual Studio, click "Select Interpreter" on bottom-right hand side of screen. Find Python310 folder on local computer (likely in C:\Program Files) and select Python 3.10 (64-bit) executable as the interpreter.
 
-To install required libraries, click "Terminal > New Terminal" (terminal should say your location is "PS C:\Change_Access_Model>", depending on where you saved it). Enter command "pip3 install -r requirements.txt". If you have any trouble, see what libraries failed to install. You could try changing the version of certain libraries in requirements.xml if they are out of date by looking them up, although the script may only work with the version listed.
+To install required libraries, click "Terminal > New Terminal" (terminal should say your location is "PS C:\Change_Access_Model>", depending on where you saved it). Enter command "pip3 install -r requirements.txt". If it doesn't recognize the pip command, you might have an issue with the Python PATH environment variable.
+
+If you have any trouble installing the libraries, see what libraries failed to install. You could try changing the version of certain libraries in requirements.xml if they are out of date by looking them up, although the script may only work with the version listed.
 
 #API Key 
 
